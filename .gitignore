@@ -1,0 +1,61 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# PyTorch 모델 파일 (용량 큼)
+*.pth
+*.pt
+*.ckpt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 데이터 파일 (MovieLens 압축 파일)
+*.zip
+*.dat
+backend/data/ml-1m/
+
+# React/Node.js 관련
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# React 빌드 결과물
+frontend/build/
+frontend/dist/
+
+# 환경 변수 (API 키 등)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE 설정 (WebStorm, VSCode)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# 테스트 커버리지
+coverage/
+.nyc_output
+
+# Docker
+*.log
+docker-compose.override.yml
